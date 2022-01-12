@@ -822,10 +822,10 @@ body {
 }
 
 .desctop {
-	display: block;
+	display: block!important;
 }
 .mobile {
-	display: none;
+	display: none!important;
 }
 #burger {
 	display: none;
@@ -1004,10 +1004,13 @@ body {
 	}
 	
 	.desctop {
-		display: none;
+		display: none!important;
 	}
 	.mobile {
-		display: block;
+		display: block!important;
+	}
+	.menu--head-control.mobile {
+		display: flex!important;
 	}
 
 
