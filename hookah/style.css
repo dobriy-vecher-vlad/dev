@@ -29,7 +29,7 @@ body {
 	transition: .2s;
 }
 .head.isScroll {
-	background: rgb(48 51 59 / 60%);
+	background: rgb(48 51 59 / 90%);
     /* backdrop-filter: blur(25px); */
     /* -webkit-backdrop-filter: blur(25px); */
 }
@@ -68,9 +68,29 @@ body {
 	line-height: 21px;
 	color: #EDF0F4;
 	white-space: nowrap;
+	cursor: pointer;
+	position: relative;
+}
+.head--nav-item::after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background: #6C525B;
+	bottom: -10px;
+	opacity: 0;
+	transition: opacity .2s;
+}
+.head--nav-item:hover::after {
+	opacity: 1;
 }
 .head--nav-item:not(:last-child) {
 	margin-right: 35px;
+}
+.head--links {
+	color: #EDF0F4;
+	font-size: 28px;
 }
 
 
@@ -613,6 +633,11 @@ body {
 	color: #FFFFFF;
 	background: #6C525B;
 	text-align: center;
+	transition: background .2s;
+	cursor: pointer;
+}
+.bottom--button:hover {
+	background: #846A73;
 }
 
 .map {
@@ -673,7 +698,20 @@ body {
 	color: #FFFFFF;
 	background: #30333B;
 	text-align: center;
+	transition: background .2s;
+	cursor: pointer;
+}
+.map--info-button:hover {
+	background: #444853;
 }
 .map--info-button + .map--info-button {
 	margin-left: 15px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	user-select: none;
+}
+.swiper-button-disabled {
+	opacity: .5;
 }
