@@ -1048,7 +1048,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
 	.map--info-wrap {
 		align-items: flex-start;
 		flex-direction: column;
