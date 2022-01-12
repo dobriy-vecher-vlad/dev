@@ -1,11 +1,12 @@
-# Warlord Services
-Набор вспомогательных сервисов по игре WARLORD.
+# Dev folder
+Различные проекты.
 
 ## Полезные ссылки
-1. [Warlord Wiki](https://vk.com/app7155463)
-2. [Warlord Ruins](https://vk.com/app7155472)
-3. [Warlord Script](https://chrome.google.com/webstore/detail/warlord-script/lnohbnecjodgkjkfcfaamadbeiapofoa)
-4. [HeroesArena Script](https://chrome.google.com/webstore/detail/heroesarena-script/kdgdhfahfeacfebajodpkkijopmobpkn)
-5. [TimeTrap Script](https://chrome.google.com/webstore/detail/timetrap-script/kiidpdifmhnobdpodmkcmonhokmplldj)
-6. [DeadLand Script](https://chrome.google.com/webstore/detail/deadland-script/nfpijfchkkommchpnljlpabngkcmogom)
-7. [Invasion Script](https://chrome.google.com/webstore/detail/invasion-script/babhdbcgmpkbihdjcpfldnedooaojala)
+1. [WS site](https://dobriy-vecher-vlad.github.io/dev/study-ws/)
+2. [Book](https://dobriy-vecher-vlad.github.io/dev/study-book_history/)
+3. [Book](https://dobriy-vecher-vlad.github.io/dev/study-book_2021/)
+4. [Book](https://dobriy-vecher-vlad.github.io/dev/study-book_2020/)
+5. [News KURT](https://dobriy-vecher-vlad.github.io/dev/study-news/)
+6. [Book](https://dobriy-vecher-vlad.github.io/dev/study-book_2019/)
+7. [Landing](https://dobriy-vecher-vlad.github.io/dev/landing_page/)
+8. [Hookah site](https://dobriy-vecher-vlad.github.io/dev/hookah/)
