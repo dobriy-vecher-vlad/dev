@@ -1014,6 +1014,7 @@ body {
 		opacity: 0;
 		transition: opacity .2s;
 		background: rgb(0 0 0 / 80%);
+		pointer-events: none;
 	}
 	#burger:checked ~ .body::before {
 		opacity: 1;
@@ -1048,7 +1049,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 490px) {
 	.map--info-wrap {
 		align-items: flex-start;
 		flex-direction: column;
