@@ -7,6 +7,16 @@
 	--width: 1200px;
 }
 
+a {
+	color: #2688EB;
+	text-decoration: none;
+}
+.globalLink {
+	position: absolute;
+	left: 0;
+	top: -150px;
+}
+
 body {
 	margin: 0px;
 	/* user-select: none; */
@@ -86,6 +96,7 @@ body {
 	white-space: nowrap;
 	cursor: pointer;
 	position: relative;
+	display: block;
 }
 .head--nav-item::after {
 	content: '';
@@ -121,6 +132,7 @@ body {
 	background: url(img/bg_left.png) left center no-repeat, url(img/bg_right.png) right center no-repeat;
 	background-color: #30333C;
 	background-size: auto, auto;
+	position: relative;
 }
 .main--wrapper {
 	display: flex;
@@ -203,6 +215,7 @@ body {
 	justify-content: center;
 	z-index: 1;
 	padding: 70px 0 110px 0;
+	position: relative;
 }
 .about--wrapper {
 	display: flex;
@@ -286,6 +299,7 @@ body {
 	padding: 70px 0;
 	background: url(img/bg_gallery.png);
 	background-size: cover;
+	position: relative;
 }
 .gallery--wrapper {
 	display: flex;
@@ -349,6 +363,7 @@ body {
 	justify-content: center;
 	z-index: 1;
 	padding: 70px 0;
+	position: relative;
 }
 .menu--wrapper {
 	display: flex;
@@ -506,6 +521,7 @@ body {
 	padding: 90px 0;
 	background: url(img/info.png) no-repeat;
 	background-size: contain;
+	position: relative;
 }
 .info--wrapper {
 	display: flex;
@@ -565,6 +581,7 @@ body {
 	z-index: 1;
 	padding: 110px 0;
 	background-size: cover;
+	position: relative;
 }
 .news--wrapper {
 	display: flex;
@@ -653,6 +670,7 @@ body {
 	padding: 70px 0;
 	background: url(img/bg_bottom.png);
 	background-size: cover;
+	position: relative;
 }
 .bottom--wrapper {
 	display: flex;
@@ -714,6 +732,7 @@ body {
 	width: -webkit-fill-available;
 	display: flex;
 	z-index: 1;
+	position: relative;
 }
 .map--wrapper {
 	display: flex;
@@ -1046,6 +1065,39 @@ body {
 		right: 20px;
 		top: 90px;
 		z-index: 100;
+	}
+
+	.gallery--image {
+		height: 310px;
+	}
+
+	.gallery {
+		justify-content: flex-start;
+	}
+	.gallery--wrapper {
+		width: calc(100% - 20px * 2 - 100vw / 3);
+	}
+	.gallery--head {
+		width: calc(100% + 100vw / 3);
+	}
+	.news {
+		justify-content: flex-start;
+	}
+	.news--wrapper {
+		width: calc(100% - 20px * 2 - 100vw / 3);
+		overflow: visible;
+	}
+	.news--head {
+		width: calc(100% + 100vw / 3);
+	}
+	.menu--tabs {
+		overflow: visible;
+	}
+	.menu--tab-body {
+		width: calc(100% - 100vw / 3)!important;
+	}
+	.menu--head-control {
+		right: calc(100vw / -3);
 	}
 }
 
